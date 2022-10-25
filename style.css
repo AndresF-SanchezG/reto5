@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+--very-dark-blue-mainbackground: hsl(233, 47%, 7%);
+--dark-desaturated-bluecard-background: hsl(244, 38%, 16%);
+--soft-violet-accent: hsl(277, 64%, 61%);
+--white-main-heading-stats: hsl(0, 0%, 100%);
+--slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+--slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    text-align: center;
+    padding: 70px 24px 70px 24px;
+    background-color: var(--very-dark-blue-mainbackground);
+}
+
+.img-product {
+    background-color:rgb(83 4 125);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3; 
+}
+
+
+.product-detail {
+    background-color: var(--dark-desaturated-bluecard-background);
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.product-detail h1 {
+    font-size: 2.8rem;
+    padding: 0 30px 0 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.product-detail h1 b {
+    color: var(--soft-violet-accent);
+}
+
+.product-detail p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.4rem;
+    padding: 0 40px 0 40px;
+    margin-bottom: 30px;
+    color: var(--slightly-transparent-white-stat-headings);
+    line-height: 23px;
+}
+
+.info-company{
+    margin-bottom: 30px;
+
+}
+
+.info-company h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.info-company h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color:var(--slightly-transparent-white-stat-headings);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 5px;
+}
+
+
+
+
+
