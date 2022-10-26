@@ -10,7 +10,7 @@ body {
 .main-container {
     display: grid;
     grid-template: repeat(11, 50px) / repeat(28, 50px);    
-    width: 1380px;
+    width: 1370px;
     padding: 0;
     
 }
