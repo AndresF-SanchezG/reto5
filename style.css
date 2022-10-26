@@ -14,7 +14,6 @@
 }
 
 
-
 html {
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
@@ -39,10 +38,9 @@ body {
 .img-product {
     background-color:rgb(83 4 125);
     border-radius: 10px 10px 0 0;
-    overflow: hidden;
-    
-    
+    overflow: hidden; 
 }
+
 
 img {
     width: 100%;
@@ -80,7 +78,7 @@ img {
     line-height: 23px;
 }
 
-.info-company{
+.info-company {
     margin-bottom: 30px;
 
 }

@@ -1,6 +1,6 @@
 body {
     display: grid;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: var(--very-dark-blue-mainbackground);     
@@ -19,7 +19,7 @@ body {
 .img-product {
     grid-column: 16 / 29;
     grid-row: 1 / 12;
-    border-radius: 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .product-detail {
