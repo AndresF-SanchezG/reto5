@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# reto-6
+# reto5
 Este desafío consiste en replicar un diseño propuesto
 =======
 # reto6
